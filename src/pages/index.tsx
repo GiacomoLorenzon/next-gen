@@ -56,11 +56,6 @@ export default function Home() {
     }
   }, [mode]);
 
-  // Toggle between dark and light modes
-  const toggleMode = () => {
-    setMode(mode === 'dark' ? 'light' : 'dark');
-  };
-
   return (
     <>
       <Head>
