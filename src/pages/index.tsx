@@ -63,7 +63,7 @@ export default function Home() {
         <meta name="description" content="NextGen landing page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="min-h-screen bg-red-700 dark:bg-gray-900 transition-all duration-500 ease-in-out">
+      <div className="bg-white dark:bg-gray-900 transition-all duration-500 ease-in-out">
         <main className="flex flex-col items-center justify-center text-gray-900 dark:text-white">
           <div className="main-container">
             {/* Main content */}
@@ -80,7 +80,7 @@ export default function Home() {
                 className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-500 text-white rounded-full flex items-center justify-center shadow-lg hover:translate-y-[-10px] transition-all ease-in-out duration-500"
                 aria-label="scroll to top"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="m5 12 7-7 7 7"></path>
                   <path d="M12 19V5"></path>
                 </svg>

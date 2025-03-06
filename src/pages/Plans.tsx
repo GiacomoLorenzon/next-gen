@@ -47,7 +47,7 @@ function Plans() {
         <h2 className="text-3xl mt-10 mb-10 font-bold dark:text-white">Plans</h2>
         {plansData.map((plan, index) => (
           <div key={index} className="rounded-lg">
-            <div className="text-xl font-semibold dark:text-white">{plan.title}</div>
+            <div className="mt-5 text-xl font-semibold dark:text-white">{plan.title}</div>
             <div className="dark:text-white mt-2">{plan.description}</div>
             <div className="mt-4 text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500">
               {plan.oldPrice && (

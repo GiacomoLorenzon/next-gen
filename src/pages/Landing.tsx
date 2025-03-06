@@ -74,10 +74,10 @@ function Landing() {
           </span>
         </h1>
         <div className="pt-4">
-          <h4 className="text-4xl font-normal dark:text-white">
+          <h4 className="text-3xl font-normal dark:text-white">
             Next-generation
           </h4>
-          <h4 className="text-4xl font-normal dark:text-white">
+          <h4 className="text-3xl font-normal dark:text-white">
             Consultants
           </h4>
           <h6 className="mt-3 text-2xl font-normal text-gray-500">
@@ -87,7 +87,7 @@ function Landing() {
       </div>
       <button
         type="button"
-        className="mt-20 text-white flex pt-3.5 bg-gradient-to-br from-purple-600 to-blue-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2
+        className="mt-10 text-white flex pt-3.5 bg-gradient-to-br from-purple-600 to-blue-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2
           transition-all duration-300 ease-in-out
           focus:ring-4 focus:outline-none focus:ring-blue-300
           dark:focus:ring-blue-800 group" // Add 'group' here to target child on hover

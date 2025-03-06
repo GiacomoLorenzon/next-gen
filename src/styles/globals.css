@@ -14,8 +14,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1rem !important;
   padding: 0;
-  max-width: 700px; /* Limit the max width to 800px */
-  margin: 0 auto; /* Center the content */
+}
+
+main {
+  max-width: 770px; /* Limit the max width */
+  margin: 0 auto; /* Centre the container */
 }
 
 code {
@@ -34,7 +37,7 @@ a {
 /* Media query for smaller screens */
 @media (max-width: 600px) {
   body {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     width: 100%;
     max-width: none; /* Allow full-width on smaller screens */
     padding: 0; /* Add padding for small screens */
