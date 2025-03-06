@@ -63,7 +63,7 @@ export default function Home() {
         <meta name="description" content="NextGen landing page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="min-h-screen bg-white dark:bg-gray-900 transition-all duration-500 ease-in-out">
+      <div className="min-h-screen bg-red-700 dark:bg-gray-900 transition-all duration-500 ease-in-out">
         <main className="flex flex-col items-center justify-center text-gray-900 dark:text-white">
           <div className="main-container">
             {/* Main content */}
